@@ -1,0 +1,199 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;  
+    background-color: #EEE;
+}
+#header {
+    position : fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+    width: 100%;
+}
+
+#logo{
+    width: 30vw;
+
+}
+
+#logo img {
+    width: 100%;
+    height: 100%;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+#nav-bar{
+    font-weight: 400;
+}
+
+nav ul {
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.Center{
+    position : relative;
+} 
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 100px;
+}
+
+.form h1{
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+
+
+.Content-center{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#features{
+    margin-top: 20px;
+}
+
+
+#icon{
+    color: orange;
+    font-size: 50px;
+}
+
+button{
+    background-color: orange;
+    border: none;
+    padding: 4px;
+    margin-top: 10px;
+    width: 130px;
+    height: 30px;
+    font-weight: 1000;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+#email{
+    padding: 5px;
+    width: 220px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+}
+
+.description h2, .description p {
+    margin: 0;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    height: 125px;;
+}
+
+iframe{
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.grid{
+    display: flex;
+}
+
+
+.trombone{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(213, 226, 213);
+    padding: 15px 0px;
+}
+
+.tenor {
+    width: 340px;
+    height: auto;
+    border: 2px solid black;
+    align-items: center;
+    font-size: 18px;
+    margin: 12px;
+    text-align: center;
+}
+
+.tenor P {
+    margin: 5px;
+    text-align: center;
+}
+
+#btn{
+    background-color: orange;
+    font-weight: normal;
+    margin: 15px;
+    height: 40px;
+    width: 100px;
+}
+
+#pricing{
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer li {
+    list-style-type: none;
+    padding: 0px 8px;
+}
+
+footer ul, footer p{
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer {
+    background-color: #ddd;
+    padding: 10px 15px;
+    margin-top: 15px;
+}
+
+.how-it-works{
+    margin: 0 auto;
+}
